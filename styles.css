@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .titulo__footer{
+        @apply text-green-500 font-bold text-3xl underline md:text-violet-600 
+    }
+    .links__footer{
+        @apply text-white font-semibold text-sm
+    }
+    .links__hover{
+        @apply lg:hover:text-blue-400 lg:transition-all lg:duration-500
+    }
+}
